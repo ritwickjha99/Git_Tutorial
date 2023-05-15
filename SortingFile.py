@@ -113,7 +113,7 @@ class Sorting:
             return
 
 
-    def MergeSort(self, isDescending=False, array="Empty"):
+    def MergeSort(self, isDescending= False, array= "Empty"):
         # Most efficient as a stable method for all cases
         if array == "Empty":
             array = self.arr
